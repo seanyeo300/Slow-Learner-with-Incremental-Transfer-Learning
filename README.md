@@ -19,7 +19,7 @@ The external dataset used is the [CochlScene](https://arxiv.org/abs/2211.02289) 
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows 10</b>
 
 <h2>Datasets Used</h2>
 
