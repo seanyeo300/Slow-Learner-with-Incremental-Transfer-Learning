@@ -37,25 +37,30 @@ Prepare the Datasets: <br/>
 2. Extract the files to your dataset path
 3. Run the [filename cleaner](utils/rename_csfiles.py)
 
+Prepare the resource file: <br/>
+
+
 Implememting SIT: <br/>
 Adjust optimizer function in run_passt_training.py.<br />
+
 ![Adjust optimizer function in run_passt_training.py.](https://github.com/seanyeo300/Slow-Learner-with-Incremental-Transfer-Learning/blob/main/images/configure_optimizer.png)
+
 <br />
 <br />
+
 Adjust the representation layer Learning Rate:  <br/>
+
 ![Adjust optimizer function in run_passt_training.py.](https://github.com/seanyeo300/Slow-Learner-with-Incremental-Transfer-Learning/blob/main/images/configure_learning_rate.png)
+
 <br />
-Perform SIT training (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
+Perform SIT training for CochlScene:  <br/>
+
+- 
+
+Peform SIT training for TAU:  <br/>
+
+Compare the Results with training on TAU only:  <br/>
 
 <!--
  ```diff
