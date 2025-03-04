@@ -31,8 +31,6 @@ The external dataset used is the [CochlScene](https://arxiv.org/abs/2211.02289) 
 
 Follow the setup instructions for the PaSST models found [here](https://github.com/fschmid56/cpjku_dcase23).
 
-
-
 Prepare the Datasets: <br/>
 
 1. Download the CochlScene dataset [here](https://github.com/cochlearai/cochlscene).
@@ -40,14 +38,14 @@ Prepare the Datasets: <br/>
 3. Run the [filename cleaner](utils/rename_csfiles.py)
 
 Implememting SIT: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Adjust optimizer function in run_passt_training.py.<br />
+![Adjust optimizer function in run_passt_training.py.](https://github.com/seanyeo300/Slow-Learner-with-Incremental-Transfer-Learning/blob/main/images/configure_optimizer.png)
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Adjust the representation layer Learning Rate:  <br/>
+![Adjust optimizer function in run_passt_training.py.](https://github.com/seanyeo300/Slow-Learner-with-Incremental-Transfer-Learning/blob/main/images/configure_learning_rate.png)
 <br />
-<br />
-Wait for process to complete (may take some time):  <br/>
+Perform SIT training (may take some time):  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
