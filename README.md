@@ -92,7 +92,7 @@ Train a PaSST model with TAU only:  <br/>
 
 Compare the results of the SIT trained model and the one trained with standard fine-tuning:
 
-
+![Table of Results.](https://github.com/seanyeo300/Slow-Learner-with-Incremental-Transfer-Learning/blob/main/images/results_comparison.png)
 
 <!--
  ```diff
