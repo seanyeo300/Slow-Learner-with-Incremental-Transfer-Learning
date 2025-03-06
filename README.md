@@ -44,7 +44,7 @@ Prepare the Datasets: <br/>
 
 Prepare the resource and metadata files: <br/>
 
-1. Create a separate instance of [dcase23.py](datasets/dcase23.py) for use on the CS dataset.
+1. Create a separate instance of [dcase23.py](https://github.com/fschmid56/cpjku_dcase23/blob/main/datasets/dcase23.py) for use on the CS dataset.
 2. Adjust the paths for the TAU and CS meta files accordingly.
 3. Configure the get_training_set function show below to take the CS training split.
 
