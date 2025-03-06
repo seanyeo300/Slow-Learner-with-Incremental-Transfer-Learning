@@ -39,15 +39,14 @@ Follow the setup instructions for the PaSST models found [here](https://github.c
 Prepare the Datasets: <br/>
 
 1. Download the CochlScene dataset [here](https://github.com/cochlearai/cochlscene).
-2. Extract the files to your dataset path
-3. Run the [filename cleaner](utils/rename_csfiles.py)
+2. Extract the files to your dataset path.
+3. Run the [filename cleaner](utils/rename_csfiles.py) by generating the meta and training split csv for the CS dataset.
 
 Prepare the resource and metadata files: <br/>
 
 1. Create a separate instance of [dcase23.py](datasets/dcase23.py) for use on the CS dataset.
-2. Generate the meta and training split csv for the CS dataset using [create_meta.py](utils/create_meta.py).
-3. Adjust the paths for the TAU and CS meta files accordingly
-4. Configure the get_training_set function show below to take the CS training split.
+2. Adjust the paths for the TAU and CS meta files accordingly.
+3. Configure the get_training_set function show below to take the CS training split.
 
 ![Adjust training set retrieval function in run_passt_training.py.](https://github.com/seanyeo300/Slow-Learner-with-Incremental-Transfer-Learning/blob/main/images/configure_training_set.png)
 
