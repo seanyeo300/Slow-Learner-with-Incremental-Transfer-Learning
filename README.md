@@ -42,7 +42,9 @@ Prepare the resource and metadata files: <br/>
 1. Create a separate instance of [dcase23.py](datasets/dcase23.py) for use on the CS dataset.
 2. Generate the meta and training split csv for the CS dataset using [create_meta.py](utils/create_meta.py).
 3. Adjust the paths for the TAU and CS meta files accordingly
-4. For the dcase23.py instance that handles the CS dataset,   
+4. Configure the get_training_set function show below to take the CS training split.
+
+![Adjust optimizer function in run_passt_training.py.](https://github.com/seanyeo300/Slow-Learner-with-Incremental-Transfer-Learning/blob/main/images/configure_training_set.png)
 
 Implememting SIT: <br/>
 Adjust optimizer function in run_passt_training.py.<br />
