@@ -3,10 +3,10 @@
 <h2>Description</h2>
 
 
-This project consists of a simple approach to incorporating external datasets into pre-trained models. The approach was adapted from the continual learning approach by [Zhang et al.](https://arxiv.org/abs/2303.05118) In this adaptation, the use of transfer learning bypasses the need for classifier alignment due to the re-initialization of the classification head. The model backbone uses the Patchout faSt Spectrogram Transformer ([PaSST](https://arxiv.org/abs/2110.05069)) model pre-trained with AudioSet.
+This project consists of a simple approach to incorporating external datasets into pre-trained models. The approach was adapted from the continual learning approach by [Zhang et al.](https://arxiv.org/abs/2303.05118) [1]. In this adaptation, the use of transfer learning bypasses the need for classifier alignment due to the re-initialization of the classification head. The model backbone uses the Patchout faSt Spectrogram Transformer ([PaSST](https://arxiv.org/abs/2110.05069)) [2] model pre-trained with AudioSet [3].
 <br/>
 
-The external dataset used is the [CochlScene](https://arxiv.org/abs/2211.02289) dataset, an acoustic scene classification dataset obtained via crowdsourcing in South Korea. The final task dataset is the TAU 2022 urban acoustic scenes mobile development dataset, which has been a mainstay in the DCASE Task 1 challenges since 2022.
+The external dataset used is the [CochlScene](https://arxiv.org/abs/2211.02289) [4] dataset, an acoustic scene classification dataset obtained via crowdsourcing in South Korea. The final task dataset is the TAU 2022 urban acoustic scenes mobile development dataset, which has been a mainstay in the DCASE Task 1 challenges since 2022.
 
 
 <br />
@@ -27,8 +27,9 @@ For exact requirements, see [here](https://github.com/fschmid56/cpjku_dcase23).
 
 <h2>Datasets Used</h2>
 
-- <b>TAU 2022 Urban Acoustic Scenes Mobile Development</b> 
+- <b>TAU 2022 Urban Acoustic Scenes Mobile Development [5] </b> 
 - <b>CochlScene</b>
+- <b>AudioSet</b>
 
 <h2>Getting Started:</h2>
 
@@ -102,13 +103,20 @@ Compare the results of the SIT trained model and the one trained with standard f
 
 <h2>References:</h2>
 
-[1] Koutini, K., Schlüter, J., Eghbal-Zadeh, H., & Widmer, G. (2021). Efficient training of audio transformers with patchout. arXiv preprint arXiv:2110.05069.
+[1] Zhang, G., Wang, L., Kang, G., Chen, L., & Wei, Y. (2023). Slca: Slow learner with classifier alignment for continual learning on a pre-trained model. In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 19148-19158).
 
-[2] Gemmeke, J. F., Ellis, D. P., Freedman, D., Jansen, A., Lawrence, W., Moore, R. C., ... & Ritter, M. (2017, March). Audio set: An ontology and human-labeled dataset for audio events. In 2017 IEEE international conference on acoustics, speech and signal processing (ICASSP) (pp. 776-780). IEEE.
+[2] Koutini, K., Schlüter, J., Eghbal-Zadeh, H., & Widmer, G. (2021). Efficient training of audio transformers with patchout. arXiv preprint arXiv:2110.05069.
 
-[3] Jeong, I. Y., & Park, J. (2022, November). Cochlscene: Acquisition of acoustic scene data using crowdsourcing. In 2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) (pp. 17-21). IEEE.
+[3] Gemmeke, J. F., Ellis, D. P., Freedman, D., Jansen, A., Lawrence, W., Moore, R. C., ... & Ritter, M. (2017, March). Audio set: An ontology and human-labeled dataset for audio events. In 2017 IEEE international conference on acoustics, speech and signal processing (ICASSP) (pp. 776-780). IEEE.
 
-[4] Zhang, G., Wang, L., Kang, G., Chen, L., & Wei, Y. (2023). Slca: Slow learner with classifier alignment for continual learning on a pre-trained model. In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 19148-19158).
+[4] Jeong, I. Y., & Park, J. (2022, November). Cochlscene: Acquisition of acoustic scene data using crowdsourcing. In 2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) (pp. 17-21). IEEE.
+
+[5] T. Heittola, A. Mesarosand T. Virtanen, “TAU Urban Acoustic Scenes 2022 Mobile, Development dataset”. Zenodo, Mar. 08, 2022. doi: 10.5281/zenodo.6337421.
+
+
+
+
+
 
 <!--
  ```diff
