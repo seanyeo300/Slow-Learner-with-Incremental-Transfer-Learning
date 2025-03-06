@@ -90,9 +90,12 @@ Train a PaSST model with TAU only:  <br/>
 - Set the default value of --batch_size to 256 or 128, depending on size of GPU memory
 - For windows users, set the default value of num_workers to 0
 
-Compare the results of the SIT trained model and the one trained with standard fine-tuning:
+<h2>Comparing your results:</h2>
 
-![Table of Results.](https://github.com/seanyeo300/Slow-Learner-with-Incremental-Transfer-Learning/blob/main/images/results_comparison.png)
+Compare the results of the SIT trained model and the one trained with standard fine-tuning. Seq-FT refers to a model trained using standard fine-tuning for the CS and TAU dataset. i.e. No SIT training.
+
+<p align="center">
+ <img src="https://github.com/seanyeo300/Slow-Learner-with-Incremental-Transfer-Learning/blob/main/images/result_comparison.png" height="50%" width="50%" alt="Table of Results"/>
 
 <!--
  ```diff
