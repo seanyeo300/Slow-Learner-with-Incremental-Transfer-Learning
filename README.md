@@ -40,7 +40,7 @@ Prepare the Datasets: <br/>
 
 1. Download the CochlScene dataset [here](https://github.com/cochlearai/cochlscene).
 2. Extract the files to your dataset path.
-3. Run the [filename cleaner](utils/rename_csfiles.py) by generating the meta and training split csv for the CS dataset.
+3. Run [rename_csfiles.py](utils/rename_csfiles.py) to generate the meta and training split csv for the CS dataset.
 
 Prepare the resource and metadata files: <br/>
 
