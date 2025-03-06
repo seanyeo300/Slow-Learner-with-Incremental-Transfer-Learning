@@ -39,6 +39,7 @@ Prepare the Datasets: <br/>
 
 Prepare the resource file: <br/>
 
+1. Open [dcase23.py](datasets/dcase23.py.py)
 
 Implememting SIT: <br/>
 Adjust optimizer function in run_passt_training.py.<br />
