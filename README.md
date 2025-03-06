@@ -14,6 +14,8 @@ The external dataset used is the [CochlScene](https://arxiv.org/abs/2211.02289) 
 
 <h2>Languages and Utilities Used</h2>
 
+The important packages and libraries required for reproducing this experiment are:
+
 - <b>Python = 3.7.9 </b> 
 - <b>Pytorch = 1.13.1+cu117 </b>
 
