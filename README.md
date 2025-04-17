@@ -66,7 +66,7 @@ For use with the CS dataset, setting 1e-4 for the representation layer yielded t
 
 <br />
 
-Perform SIT training for CochlScene:  <br/>
+Perform SIT training for CochlScene (1st Stage):  <br/>
 
 - Set the default value of --subset to cochl
 - Set the default value of --n_classes to 13
@@ -74,7 +74,7 @@ Perform SIT training for CochlScene:  <br/>
 - Reduce batch size until the samples fit into GPU memory
 - For windows users, set the default value of num_workers to 0
 
-Peform SIT training for TAU:  <br/>
+Peform SIT training for TAU (2nd Stage):  <br/>
 
 - Set the default value of --ckpt_id to the model trained with the CS dataset
 - Set the default value of --subset between 5 to 100
